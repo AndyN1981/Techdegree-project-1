@@ -70,8 +70,8 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 5px solid black;
+  transition: all .75s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -100,6 +100,19 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #ff99ff;
+}
+.card .reference-image {
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid black;
+  transition: all .75s;
+  display: flex; 
+  justify-content: right; 
+}
+.card .reference-image:hover {
+  transform: scale(3.0) rotate(360deg);
 }
 
 ul.skills {
